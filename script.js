@@ -1,8 +1,5 @@
-
-
-boton.addEventListener("click", function() {
-    alert("Hola, gracias por visitar mi perfil!");
-});
+const boton = document.getElementById("btn-saludo");
+let saludoMostrado = false;
 
 
 boton.addEventListener("click", function() {
